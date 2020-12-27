@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>The Shoe Store</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Used for JavaScript funtions: show, hide, removeClass, addClass -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class = "wrapper">
+      <!-- Header -->
+      <div class="title">
+        <h1>THE SHOE STORE</h1>
+        <i class="fas fa-shoe-prints"></i>
+        <p>We Sell Shoes</p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="navigation">
+        <ul>
+          <li data-key="all" class="button active">All</li>
+          <li data-key="men" class="button">Men</li>
+          <li data-key="woman" class="button">Women</li>
+          <li data-key="kids" class="button">Kids</li>
+          <li><a href="contact.html">Contact</a></li>
+      
+        </ul>
+      </div>
+
+      <!-- Item Cards -->
+      <section class="cards">
+        <div class="card men">
+          <div class ="image">
+            <img src="images/nikeshoe1.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Nike Revoult</p>
+            <p class="category">Men</p>
+            <p class="price">$59.99</p>
+          </div>
+        </div>
+
+        <div class="card woman">
+          <div class ="image">
+            <img src="images/nikeshoe2.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Nike Blue</p>
+            <p class="category">Women</p>
+            <p class="price">$99.99</p>
+          </div>
+        </div>
+
+        <div class="card kids">
+          <div class ="image">
+            <img src="images/nikeshoe3.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Nike Air Max</p>
+            <p class="category">Kids</p>
+            <p class="price">$94.99</p>
+          </div>
+        </div>
+
+        <div class="card men">
+          <div class ="image">
+            <img src="images/nikeshoe4.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Air Jordan 1</p>
+            <p class="category">Men</p>
+            <p class="price">$139.99</p>
+          </div>
+        </div>
+
+        <div class="card woman">
+          <div class ="image">
+            <img src="images/adidas1.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Nike Grey</p>
+            <p class="category">Women</p>
+            <p class="price">$119.99</p>
+          </div>
+        </div>
+
+        <div class="card kids">
+          <div class ="image">
+            <img src="images/converse1.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Converse</p>
+            <p class="category">Kids</p>
+            <p class="price">$39.99</p>
+          </div>
+        </div>
+
+        <div class="card woman">
+          <div class ="image">
+            <img src="images/fila1.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Fila White</p>
+            <p class="category">Women</p>
+            <p class="price">$69.99</p>
+          </div>
+        </div>
+
+        <div class="card men">
+          <div class ="image">
+            <img src="images/yeezy1.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Adidas Yeezy Boost 350</p>
+            <p class="category">Men</p>
+            <p class="price">$219.99</p>
+          </div>
+        </div>
+
+        <div class="card men">
+          <div class ="image">
+            <img src="images/newbalance1.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">New Balance Blue</p>
+            <p class="category">Men</p>
+            <p class="price">$109.99</p>
+          </div>
+        </div>
+
+        <div class="card kids">
+          <div class ="image">
+            <img src="images/airforce1.jpg">
+          </div>
+          <div class ="content">
+            <p class="name">Nike Air Force 1</p>
+            <p class="category">Kids</p>
+            <p class="price">$69.99</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <h1 class="title">THE SHOE STORE</h1>
+        <p class = "copyright">Naveed Sheikh &copy; 2020</p>
+
+        <!-- Form -->
+        <form action="https://formspree.io/xeqlzwky" method="POST" class = "subscription">
+          <p>Subscribe to our newsletter</p>
+          <label for="name">Name:</label>
+          <input type="text" name="name" placeholder="Enter Name"><br>
+          <label for="email">Email:</label>
+          <input type="email" name="_replyto" placeholder="example@email.com"><br>
+          <input type="submit" value="Subscribe" class=subscribe>
+        </form>
+      </footer>
+
+    <!-- Wrapper Ends -->
+    </div>
+  </body>
+</html>
